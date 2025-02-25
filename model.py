@@ -28,4 +28,4 @@ def calculate_color_accuracy(target_image, input_image):
     # Convert to accuracy percentage
     accuracy = (1 - normalized_difference) * 100
 
-    return max(0, min(100, accuracy)), target_lab, input_lab
+    return max(0, min(100, accuracy))
